@@ -1,41 +1,40 @@
 html, body {
 	width: 100%;
 	margin: 0;
+	background-color: black;
+}
+
+a, a:hover, a:visited {
+	color: white;
+	text-decoration: none;
 }
 
 .block {
-	z-index: 1;
 	width: 100%;
 }
 
 #logo {
+	margin-top: 60px;
 	max-width: 70%;
 	max-height: 15%;
 }
 
 #d1 {
-	background: url("file:///Users/frankjwu/code/thousand/img/dark.jpg");
+	background: url("img/dark.jpg");
 }
 
 #d2 {
-	background: url("file:///Users/frankjwu/code/thousand/img/soaring.jpg");
+	background: url("img/walk.png");
 }
 
 #d3 {
-	background: url("file:///Users/frankjwu/code/thousand/img/bird.jpg");
-}
-
-.banner {
-	z-index: 2;
-	position: absolute;
-	width: 100%;
-	background-color: gray;
+	background: url("img/bird.png");
 }
 
 .content {
 	padding: 40px;
 	margin: 0 auto;
-	width: 80%;
+	width: 85%;
 }
 
 #c1 {
@@ -43,4 +42,38 @@ html, body {
 	font-size: 65px;
 	text-align: center;
 	color: white;
+}
+
+#c2 {
+	font-family: "Wire One", sans-serif;
+	font-size: 70px;
+	text-align: right;
+	color: white;
+}
+
+#c3 {
+	margin-top: -80px;
+	font-family: "Wire One", sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.gobig {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.money {
+	color: green;
+	background: none;
+}
+
+.disclosure {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+.fb-post {
+	margin-top: 20px;
 }
