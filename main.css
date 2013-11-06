@@ -1,4 +1,46 @@
-.block {
+html, body {
 	width: 100%;
-	background: url("https://d2c87l0yth4zbw.cloudfront.net/i/home/intro-ipad.jpg");
+	margin: 0;
+}
+
+.block {
+	z-index: 1;
+	width: 100%;
+}
+
+#logo {
+	max-width: 70%;
+	max-height: 15%;
+}
+
+#d1 {
+	background: url("file:///Users/frankjwu/code/thousand/img/dark.jpg");
+}
+
+#d2 {
+	background: url("file:///Users/frankjwu/code/thousand/img/soaring.jpg");
+}
+
+#d3 {
+	background: url("file:///Users/frankjwu/code/thousand/img/bird.jpg");
+}
+
+.banner {
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	background-color: gray;
+}
+
+.content {
+	padding: 40px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#c1 {
+	font-family: "Wire One", sans-serif;
+	font-size: 65px;
+	text-align: center;
+	color: white;
 }
